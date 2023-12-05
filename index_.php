@@ -12,9 +12,8 @@
   </head>
   <body>
 
-  <div class="container-fluid">
+  <div class="container">
 
-      
       <h1>Form Registrasi</h1>
       
       <form action="welcome.php" method="post">
@@ -24,28 +23,10 @@
             </div>
             <div class="mb-3">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" name = "email">
-        </div>
-
-        <div class="mb-3">
-            <label for="website" class="form-label">Website</label>
-            <input type="text" name="website" id="website" class="form-control" >
+              <input type="email" class="form-control" id="email" name = "email">
             </div>
-
-            <div class="mb-3">
-                <label for="comment" class="form-label">Comment </label>
-                <textarea name="comment" class="form-control" rows="5" cols="40"></textarea>
-            </div>
-            
-            <div class="mb-3">
-                <label for="website" class="form-label">Gender : </label><br/>
-                <input type="radio" name="gender"  value="female"> Female
-                <input type="radio" name="gender" value="male"> Male
-                <input type="radio" name="gender" value="other"> Other
-            </div>
-            <input type="submit" class="btn btn-primary">
+            <input type="submit" class="btn btn-danger">
         </form>
-        
     </div>
         
         
